@@ -7,7 +7,7 @@ import {
     UserIcon,
 } from "@heroicons/react/outline";
 import Image from "next/image";
-import HeaderItem from './HeaderItem';
+import HeaderItem from './HeaderItem.js';
 
 function Header() {
     return (
@@ -25,6 +25,7 @@ function Header() {
                 src="/logo/Hulu-Logo.png"
                 width={90}
                 height={50}
+                alt="hulu logo"
              />
         </header>
     )
